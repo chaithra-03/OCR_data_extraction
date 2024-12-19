@@ -25,7 +25,8 @@ This project automates data extraction using Python, reducing manual effort whil
 - **Frontend**: Streamlit (UI for interacting with the backend)
 
 ## Workflow
-https://github.com/chaithra-03/OCR_data_extraction/blob/master/Resources/workflow.jpg
+![Workflow](https://github.com/chaithra-03/OCR_data_extraction/raw/master/Resources/workflow.jpg)
+
 
 ### 1. PDF to Image Conversion
 Using the pdf2image library, PDFs are converted into images for processing.
