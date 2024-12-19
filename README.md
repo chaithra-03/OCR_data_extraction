@@ -17,7 +17,7 @@ This project automates data extraction using Python, reducing manual effort whil
 - **Concepts**: OOP, Test-Driven Development
 - **Libraries/Modules**:
   - pytesseract for OCR
-  - opencv for image processing
+  - OpenCV for image processing
   - pdf2image for converting PDFs to images
   - regex for pattern matching and data extraction
   - pytest for testing
@@ -36,9 +36,13 @@ To improve data extraction accuracy, preprocessing is done using OpenCV:
 - **Normal Thresholding**: Initial trials showed data loss in noisy images.
 - **Adaptive Thresholding**: A better alternative, as it adjusts thresholds for sub-regions, resulting in higher accuracy.
 
-![Image Processing 1](https://github.com/chaithra-03/OCR_data_extraction/blob/master/Resources/filter_dark.jpg)
+<div style="display: flex;">
+    <img src="https://github.com/chaithra-03/OCR_data_extraction/raw/master/Resources/filter_dark.jpg" width="300" style="margin-right: 40px;"/>
+    <img src="https://github.com/chaithra-03/OCR_data_extraction/raw/master/Resources/adaptive_filter_dark.jpg" width="300"/>
+</div>
 
-![Image Processing 2](https://github.com/chaithra-03/OCR_data_extraction/blob/master/Resources/adaptive_filter_dark.jpg)
+
+
 
 
 ### 3. Data Extraction
@@ -66,6 +70,7 @@ A user-friendly frontend was developed using Streamlit, allowing users to:
 ## Result
 The backend functionality, combined with the Streamlit frontend, allows for seamless integration into existing systems like those used by “Mr. X Analytics.” This solution automates data extraction, reducing manual effort while enabling human verification for accuracy.
 
-[![Watch the video demo](https://github.com/chaithra-03/OCR_data_extraction/blob/master/Resources/Demo.mp4)
+[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/chaithra-03/OCR_data_extraction/blob/master/Resources/Demo.mp4)
+
 
 
