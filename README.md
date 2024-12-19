@@ -37,9 +37,10 @@ To improve data extraction accuracy, preprocessing is done using OpenCV:
 - **Adaptive Thresholding**: A better alternative, as it adjusts thresholds for sub-regions, resulting in higher accuracy.
 
 <div style="display: flex;">
-    <img src="https://github.com/chaithra-03/OCR_data_extraction/raw/master/Resources/filter_dark.jpg" width="300" style="margin-right: 40px;"/>
+    <img src="https://github.com/chaithra-03/OCR_data_extraction/raw/master/Resources/filter_dark.jpg" width="300" style="margin-right: 20px;"/>
     <img src="https://github.com/chaithra-03/OCR_data_extraction/raw/master/Resources/adaptive_filter_dark.jpg" width="300"/>
 </div>
+
 
 
 
@@ -70,7 +71,9 @@ A user-friendly frontend was developed using Streamlit, allowing users to:
 ## Result
 The backend functionality, combined with the Streamlit frontend, allows for seamless integration into existing systems like those used by “Mr. X Analytics.” This solution automates data extraction, reducing manual effort while enabling human verification for accuracy.
 
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/chaithra-03/OCR_data_extraction/blob/master/Resources/Demo.mp4)
+https://github.com/abhijeetk597/medical-data-extraction/assets/138308825/3d5d90e8-2858-4831-b1d5-97a3874f256c
+
+
 
 
 
